@@ -1,0 +1,42 @@
+.navLinkMenu {
+  font-family: Roboto, system-ui;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  background-color: transparent;
+  text-align: center;
+  padding: 0px 15px;
+}
+
+.navLinkMenu:hover {
+  color: #bea856;
+  background-color: #bea856;
+}
+
+.buttonRegisteren {
+  border-radius: 2px;
+  display: inline-block;
+  font-family: Roboto, system-ui;
+  font-size: 16px;
+  background-color: #bea856;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  width: 135px;
+  height: 42px;
+  transition: all 0.5s;
+  padding: 8px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonRegisteren:hover {
+  transform: scale(0.99);
+}
+
+.startFont {
+  font-weight: 600;
+  color: rgb(190, 168, 86);
+}

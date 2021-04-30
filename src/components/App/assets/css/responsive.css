@@ -40,7 +40,7 @@
     padding-right: 15px;
   }
   .navbar-light .navbar-collapse {
-    background-color: #1f1e1e;
+    background-color: white;
     padding-top: 15px;
     padding-bottom: 35px;
     margin-top: 15px;
@@ -100,6 +100,8 @@
   /*-- About --*/
   .about-area {
     text-align: center;
+    height: 448px;
+    background-color: #f6f6f6;
   }
   .about-area .about-content .left {
     margin-bottom: 12px;
@@ -110,23 +112,23 @@
   }
   .experience-area .experience-content .experience-inner ul li:nth-child(1) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 10px;
   }
   .experience-area .experience-content .experience-inner ul li:nth-child(2) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 100%;
-            flex: 0 100%;
+    -ms-flex: 0 100%;
+    flex: 0 100%;
     max-width: 100%;
     margin-left: 0;
     margin-bottom: 10px;
   }
   .experience-area .experience-content .experience-inner ul li:nth-child(3) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
     max-width: 100%;
     margin-left: 0;
   }
@@ -139,15 +141,15 @@
   }
   .awards-area .awards-inner ul li:nth-child(1) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 15px;
   }
   .awards-area .awards-inner ul li:nth-child(2) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
     max-width: 100%;
     margin-left: 0;
   }
@@ -348,7 +350,7 @@
     top: 0;
     right: 0;
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   /*-- What --*/
   .what-area.two .what-item {
@@ -378,15 +380,15 @@
   }
   .blog-area.five .blog-thumb-item ul li:nth-child(1) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 40%;
-            flex: 0 0 40%;
+    -ms-flex: 0 0 40%;
+    flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
   }
   .blog-area.five .blog-thumb-item ul li:nth-child(2) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
     max-width: 50%;
     margin-left: 10px;
   }
@@ -651,6 +653,8 @@
   /*-- About --*/
   .about-area {
     text-align: center;
+    height: 448px;
+    background-color: #f6f6f6;
   }
   /*-- Blog --*/
   .blog-area {
@@ -823,7 +827,7 @@
     top: 0;
     right: 0;
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   /*-- What --*/
   .what-area.two .what-item {
@@ -847,14 +851,14 @@
   }
   .blog-area.five .blog-thumb-item ul li:nth-child(1) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 15%;
-            flex: 0 0 15%;
+    -ms-flex: 0 0 15%;
+    flex: 0 0 15%;
     max-width: 15%;
   }
   .blog-area.five .blog-thumb-item ul li:nth-child(2) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
     max-width: 50%;
     margin-left: 10px;
   }
@@ -939,8 +943,8 @@
   }
   .blog-details-area .widget-area .recent .recent-inner ul li:nth-child(1) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 15%;
-            flex: 0 0 15%;
+    -ms-flex: 0 0 15%;
+    flex: 0 0 15%;
     max-width: 15%;
   }
   /*----- End Blog Details CSS -----*/
@@ -1009,7 +1013,7 @@
     top: unset;
     right: unset;
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
     left: 70px;
     bottom: 48px;
   }

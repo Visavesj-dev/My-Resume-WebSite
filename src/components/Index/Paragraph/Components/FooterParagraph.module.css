@@ -1,0 +1,61 @@
+.footer {
+  position: relative;
+  text-align: center;
+  padding-bottom: 122px;
+  background: linear-gradient(
+    359.86deg,
+    rgba(199, 173, 74, 0.05) 0.33%,
+    rgba(199, 173, 74, 0) 92.72%
+  );
+}
+
+.footerContainer {
+  max-width: 736px;
+  width: 100%;
+  margin: auto;
+}
+
+.textHeader {
+  font-family: Roboto, system-ui;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 56px;
+  color: rgb(2, 2, 2);
+  padding-bottom: 29px;
+  word-break: break-word;
+}
+
+.textSubtitle {
+  font-family: Roboto, system-ui;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;
+  color: rgb(2, 2, 2);
+  margin-bottom: 42px;
+}
+
+.btn {
+  max-width: 375px;
+  width: 100vw;
+  height: 50px;
+  font-family: Roboto, system-ui;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  color: rgb(190, 168, 86);
+  background: rgb(28, 30, 33);
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  height: 50px;
+  padding-left: 32px;
+  padding-right: 32px;
+  outline: none;
+  transition: transform 100ms ease-in 0s;
+  position: relative;
+}
+
+.btn:hover {
+  transform: scale(0.99);
+}

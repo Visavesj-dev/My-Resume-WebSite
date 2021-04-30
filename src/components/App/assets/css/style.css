@@ -66,10 +66,11 @@ img {
 .d-table {
   width: 100%;
   height: 100%;
+  margin-top: 250px;
 }
 
 .d-table-cell {
-  vertical-align: middle;
+  /* vertical-align: middle; */
 }
 
 .ptb-100 {
@@ -472,12 +473,12 @@ button:focus {
   margin-left: 3px;
 }
 
+/* ใช้ตัวนี้ */
 .navbar-light.is-sticky {
-  background-color: #171717;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  -webkit-box-shadow: 0px 0px 20px 0px #dddddd82;
-  box-shadow: 0px 0px 20px 0px #dddddd82;
+  background-color: #ffffff;
+  height: 115px;
+  -webkit-box-shadow: 0px 0px 50px 0px white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.151);
 }
 
 .navbar-light.is-sticky .navbar-nav .nav-link {
@@ -513,15 +514,19 @@ button:focus {
   background: #eee !important;
   padding: 10px;
   border-radius: 0;
+  margin-top: 20px;
+  background: transparent !important;
 }
 
 .navbar-toggler .icon-bar {
   width: 28px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #171717;
-  height: 2px;
+  background: rgb(199, 173, 74);
+  width: 2rem;
+  height: 0.25rem;
   display: block;
+  border-radius: 10px !important;
 }
 
 .navbar-toggler .top-bar {
@@ -575,7 +580,7 @@ button:focus {
   z-index: 5;
   width: 500px;
   height: 100%;
-  background-image: url("../images/banner/main2.jpeg");
+  /* background-image: url("../images/banner/main2.jpeg"); */
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -699,8 +704,7 @@ button:focus {
 
 /*-- About --*/
 .about-area {
-  position: relative;
-  overflow: hidden;
+  background-color: #f6f6f6;
 }
 
 .about-area .about-content .section-title {
@@ -1531,7 +1535,7 @@ button:focus {
 
 /*-- Banner --*/
 .banner-area-two {
-  background-image: url("../images/banner/banner-bg.jpg");
+  /* background-image: url("../images/banner/banner-bg.jpg"); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1830,7 +1834,7 @@ button:focus {
 
 /*-- Ticket --*/
 .ticket-area {
-  background-image: url("../images/ticket-bg.jpg");
+  /* background-image: url("../images/ticket-bg.jpg"); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1904,7 +1908,7 @@ button:focus {
 }
 
 .review-area.two .review-item {
-  background-image: url("../images/review/review-bg.png");
+  /* background-image: url("../images/review/review-bg.png"); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2510,7 +2514,7 @@ button:focus {
 
 /*-- Banner --*/
 .banner-area.four {
-  background-image: url("../images/banner/banner-bg2.jpg");
+  /* background-image: url("../images/banner/banner-bg2.jpg"); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3522,7 +3526,7 @@ button:focus {
 .review-area.five .review-item {
   background-color: #050608;
   border: 0;
-  background-image: url("../images/review/review-bg2.png");
+  /* background-image: url("../images/review/review-bg2.png"); */
   -webkit-box-shadow: none;
   box-shadow: none;
   margin-bottom: 0;
@@ -3621,7 +3625,7 @@ button:focus {
 /*-- Banner --*/
 .banner-area.six {
   position: relative;
-  background-image: url("../images/banner/banner-bg3.jpg");
+  /* background-image: url("../images/banner/banner-bg3.jpg"); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

@@ -1,0 +1,226 @@
+.fullContainer {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  word-break: break-word;
+}
+
+.container {
+  display: flex;
+  margin-bottom: 190px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 90px;
+  padding-left: 5.9vw;
+  padding-right: 6.01vw;
+}
+
+.space {
+  width: 85px;
+  height: 85px;
+}
+
+.textPhoneContainer {
+  max-width: 588px;
+  width: 100%;
+}
+
+.textPhoneHeader {
+  font-family: Roboto, system-ui;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 37px;
+  color: rgb(2, 2, 2);
+  margin-bottom: 41px;
+}
+
+.textPhoneChoice1Container {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+.btnPhone {
+  color: rgb(159, 138, 59);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 39px;
+  font-family: Roboto, system-ui;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  /* color: rgb(123, 123, 123); */
+  background-color: transparent;
+  text-align: end;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+  min-width: auto;
+}
+
+.btnPhoneText {
+  font-family: Roboto, system-ui;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: rgb(123, 123, 123);
+  background-color: transparent;
+  text-align: end;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+  min-width: auto;
+}
+
+.textChoice1 {
+  font-family: Roboto, system-ui;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;
+  color: rgb(2, 2, 2);
+  margin: 0px;
+  letter-spacing: 0.6px;
+}
+
+.choice1 {
+  font-family: Roboto, system-ui;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 37px;
+  background: rgb(255, 255, 255);
+  box-shadow: rgb(94 89 77 / 10%) 0px 5px 20px -2px;
+  border-radius: 25px;
+  min-width: 48px;
+  min-height: 48px;
+  color: rgb(190, 168, 86);
+  font-style: italic;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-right: 5px;
+  margin-right: 22px;
+}
+
+.imgPhoneContainer {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: relative;
+  max-width: 455px;
+  width: 100%;
+  height: 455px;
+  background: rgb(245, 241, 228);
+  border-top-right-radius: 90px;
+  border-bottom-left-radius: 90px;
+}
+
+.imgPhone {
+  max-width: 231px;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-top: 40px;
+}
+
+.textLeft {
+  max-width: 650px;
+  width: 100%;
+  padding-top: 13px;
+  align-self: center;
+  margin-right: 28px;
+  padding-left: 64px;
+}
+
+.headerText {
+  font-family: Roboto, system-ui;
+  font-weight: 300;
+  white-space: pre-line;
+  color: rgb(2, 2, 2);
+  line-height: 46px;
+  font-size: 40px;
+  padding-bottom: 8px;
+}
+
+.subText {
+  font-family: Roboto, system-ui;
+  font-size: 32px;
+  font-weight: 300;
+  white-space: pre-line;
+  color: rgb(2, 2, 2);
+  padding-bottom: 16px;
+  line-height: 46px;
+}
+
+.paragraph {
+  font-family: Roboto, system-ui;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: rgb(28, 30, 33);
+  padding-bottom: 32px;
+  position: relative;
+}
+
+.img {
+  object-fit: cover;
+  z-index: 1;
+  max-width: 564px;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .img {
+    width: 100%;
+    max-width: 425px;
+    height: 240px;
+    order: 1;
+  }
+
+  .textLeft {
+    margin-right: 0px;
+    padding: 0px 20px 44px;
+    margin-left: 0px;
+    order: -1;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .fullContainer {
+    padding-top: 53px;
+    padding-right: 0px;
+  }
+
+  .container2 {
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .textPhoneContainer {
+    margin-top: 55px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .fullContainer {
+    padding-right: 0px;
+  }
+}

@@ -1,0 +1,82 @@
+.text1 {
+  font-family: Roboto, system-ui;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 37px;
+  color: rgb(2, 2, 2);
+  margin-top: 94px;
+  margin-bottom: 39px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cardHorizontal {
+  display: flex;
+  /* flex: 1 1 auto; */
+}
+
+.video1 {
+  width: 290px;
+  height: 300px;
+  /* text-align: center;
+  background-color: rgb(236, 229, 205); */
+  overflow: hidden;
+  border: none;
+}
+
+.container {
+  display: flex;
+  margin: 0px auto 129px;
+  max-width: 1440px;
+  align-self: center;
+  padding-left: 5.9vw;
+  padding-right: 6.01vw;
+}
+
+.title {
+  font-family: Roboto, system-ui;
+  font-weight: 300;
+  color: rgb(190, 168, 86);
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 18px;
+  white-space: pre-line;
+}
+
+.subTitle {
+  font-family: Roboto, system-ui;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28px;
+  color: rgb(2, 2, 2);
+}
+
+.description {
+  font-family: Roboto, system-ui;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: rgb(123, 123, 123);
+}
+
+.bodyCard {
+  width: 100%;
+  padding-top: 43px;
+  padding-left: 19px;
+  padding-right: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.btn {
+  border: 1px solid rgb(190, 168, 86);
+  border-radius: 3px;
+  padding: 6px 14px;
+  color: rgb(190, 168, 86);
+  background-color: white;
+}
+
+.btn:hover {
+  background-color: rgb(190, 168, 86);
+  color: rgba(255, 255, 255, 0.726);
+}

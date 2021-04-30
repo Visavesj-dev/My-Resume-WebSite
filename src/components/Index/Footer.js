@@ -1,18 +1,27 @@
-import React from 'react'
+import React from "react"
+import styles from "./Footer.module.css"
+import so from "../../components/App/assets/images/so.png"
 
-const Footer = () => {
-    const currentYear = new Date().getFullYear();
-    return (
-        <React.Fragment>
-            <div className="copyright-area">
-                <div className="container">
-                    <div className="copyright-item">
-                        <p>&copy;{currentYear} Design & Developed by <a href="https://hibootstrap.com/" target="_blank" rel="noreferrer">HiBootstrap</a></p>
-                    </div>
-                </div>
-            </div>
-        </React.Fragment>
-    )
+export default function Footer() {
+  return (
+    <div className={styles.footerContainer}>
+      <div className={styles.footerText}>
+        <div className={styles.leftText}>
+          <div className={styles.twoClass}>
+            <button className={styles.btn}>Impressum</button>
+            <button className={styles.btn}>Datenschutz</button>
+            <button className={styles.btn}>Konformitätserklärung</button>
+            <button className={styles.btn}>Feedback</button>
+            <button className={styles.btn}>Kontakt</button>
+          </div>
+        </div>
+
+        <div classNames={styles.rigthText}>
+          <div className={styles.btnTitle}>
+            © 2021 Arbotena GmbH. All Rights Reserved.     <img src={so}></img>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
 }
-
-export default Footer

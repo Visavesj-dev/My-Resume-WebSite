@@ -1,0 +1,76 @@
+.footerContainer {
+  background: rgb(246, 246, 246);
+  position: relative;
+  margin-top: 0px;
+}
+
+.footerText {
+  padding-left: 120px;
+  padding-right: 116px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  padding: 11px 6.01vw 11px 3.5vw;
+}
+
+.leftText {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.twoClass {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.btn {
+  font-family: Roboto, system-ui;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(189, 189, 189);
+  text-align: center;
+  margin: 0px 15px;
+  font-family: Roboto, system-ui;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  color: rgb(123, 123, 123);
+  background-color: transparent;
+  text-align: end;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+  min-width: auto;
+}
+
+.rigthText {
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.btnTitle {
+  font-family: Roboto, system-ui;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 28px;
+  color: rgb(172, 172, 172);
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  height: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  padding-right: 10px;
+}
